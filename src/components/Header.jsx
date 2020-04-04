@@ -24,6 +24,9 @@ const Header = () => {
         <li>
           <Link to="/use-react-hook-form">use-react-hook-form</Link>
         </li>
+        <li>
+          <Link to="/use-react-use-lib">react-use-library </Link>
+        </li>
       </ul>
     </div>
   );

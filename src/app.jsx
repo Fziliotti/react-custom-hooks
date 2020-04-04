@@ -12,6 +12,7 @@ import {
   Route
 } from "react-router-dom";
 import UseReactHookFormView from "./views/UseReactHookFormView";
+import UseReactUseLibraryView from "./views/UseReactUseLibraryView";
 
 // import UseGiphyView from "./views/UseGiphyView";
 
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route exact path="/use-react-hook-form">
             <UseReactHookFormView />
+          </Route>
+          <Route exact path="/use-react-use-lib">
+            <UseReactUseLibraryView />
           </Route>
         </Switch>
     </Router>
