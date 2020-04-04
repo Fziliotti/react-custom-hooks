@@ -1,0 +1,109 @@
+*,*::after,*::before {
+  padding:0;
+  margin:0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 980px;
+  padding:10px
+}
+
+hr {
+  color:black;
+  border: 1px solid rgb(34, 33, 33) ;
+  margin: 16px 0;
+}
+
+button {
+  margin: 10px 0;
+  background-color: gray;
+  color:white;
+  padding:10px 14px;
+}
+
+button:hover{
+  opacity: .8;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-all-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img, iframe {
+  max-width: 100%;
+}
+
+input {
+  height:36px;
+  border:none;
+  padding: 2px 6px;
+}
+
+.menu-lateral {
+  height: 80px;
+  width: 100%;
+  background-color: #323232;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 3px solid #434343;
+}
+
+
+.menu-lateral ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+
+.menu-lateral ul li a {
+  color:white;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left:8px;
+}
+
+.menu-lateral ul li a:hover {
+  opacity: .8;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 14px; /* gutter size */
+  background-clip: padding-box;
+}
+ 
+/* Style your items */
+.my-masonry-grid_column > video { /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin: 4px;
+  width: 100%;
+
+}
