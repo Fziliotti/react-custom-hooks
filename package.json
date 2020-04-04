@@ -13,6 +13,7 @@
     "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^5.2.0",
     "react-lazyload": "^2.6.7",
     "react-masonry-css": "^1.0.14",
     "react-query": "^1.2.1",
