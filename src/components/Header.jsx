@@ -20,6 +20,9 @@ const Header = () => {
         <li>
           <Link to="/use-posts">use-posts</Link>
         </li>
+        <li>
+          <Link to="/use-hover">react-hover </Link>
+        </li>
 
         <li>
           <Link to="/use-react-hook-form">use-react-hook-form</Link>

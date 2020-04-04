@@ -5,6 +5,7 @@ import UseAsyncView from "./views/UseAsyncView";
 import UseRouterView from "./views/UseRouterView";
 import UsePostsView from "./views/UsePostsView";
 import UseGiphyView from "./views/UseGiphyVIew";
+import UseHoverView from "./views/UseHoverView";
 
 import {
   BrowserRouter as Router,
@@ -40,6 +41,9 @@ function App() {
           </Route>
           <Route exact path="/use-react-use-lib">
             <UseReactUseLibraryView />
+          </Route>
+          <Route exact path="/use-hover">
+            <UseHoverView />
           </Route>
         </Switch>
     </Router>
